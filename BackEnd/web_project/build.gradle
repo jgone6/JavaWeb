@@ -31,10 +31,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-starter-security'
 
+    // Valid를 사용하기 위해서 추가
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.5.2'
-
-    // https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-java8time
-    implementation group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-java8time', version: '3.0.4.RELEASE'
 }
 
 tasks.named('test') {

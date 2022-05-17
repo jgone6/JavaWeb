@@ -23,6 +23,7 @@ public class UserController {
     }
 
     @PostMapping("/loginUser")
+    //유효성 검증
     public String createUser(@Valid AccountForm form, BindingResult result){
         if(result.hasErrors()){
             return "user/login/register";
