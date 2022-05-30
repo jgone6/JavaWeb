@@ -23,3 +23,8 @@ d.
 # UI 설계
 
 * * *
+🎊산출물
+ERD, 프로세스정의 및 UI 설계 , WBS, 플랫폼 구성도
+
+🖌 ER Diagram(ERD)
+![board_erd](https://user-images.githubusercontent.com/62082028/170898783-e2317dab-a1ac-449c-90d3-ea223fd7ddfa.png)
