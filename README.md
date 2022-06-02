@@ -17,7 +17,13 @@ b.
 c.
 d.
 * * *
-# MySQL 설계도
+# 🛠Skill & Tools
+![image](https://user-images.githubusercontent.com/62082028/171586629-1875ebdb-b4e4-45a5-9e84-9c334b3ba9d3.png)
+![image](https://user-images.githubusercontent.com/62082028/171586733-bae910b2-5b28-4b5d-87a2-6d86fba19fef.png)
+![image](https://user-images.githubusercontent.com/62082028/171586791-d18c2265-3382-4573-a230-aaa8d9c21557.png)
+![image](https://user-images.githubusercontent.com/62082028/171586851-1589baeb-fe41-44ad-817b-8682304a65ca.png)
+
+
 
 * * *
 # UI 설계
@@ -26,5 +32,18 @@ d.
 🎊산출물
 ERD, 프로세스정의 및 UI 설계 , WBS, 플랫폼 구성도
 
-🖌 ER Diagram(ERD)
-![board_erd](https://user-images.githubusercontent.com/62082028/170898783-e2317dab-a1ac-449c-90d3-ea223fd7ddfa.png)
+# 🖌 ER Diagram(ERD)
+![image](https://user-images.githubusercontent.com/62082028/171590747-f0fc4442-4c60-4d4d-bb1d-045fc22d481e.png)
+
+
+## Backend
+- Django
+- Python
+- 
+## DB
+- MySQL
+- 
+## Frontend
+- HTML
+- CSS
+- Js
