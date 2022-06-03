@@ -48,7 +48,7 @@ d.
 ERD, 프로세스정의 및 UI 설계 , WBS, 플랫폼 구성도
 
 # 🖌 ER Diagram(ERD)
-![image](https://user-images.githubusercontent.com/62082028/171590747-f0fc4442-4c60-4d4d-bb1d-045fc22d481e.png)
+![image](https://user-images.githubusercontent.com/62082028/171817463-1fd11ddf-f080-4ac8-bb32-5fb0aaa6d31d.png)
 
 
 ## Backend
