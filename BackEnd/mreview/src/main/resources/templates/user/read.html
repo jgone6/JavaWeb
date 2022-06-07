@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:replace="~{/layout/basic :: setContent(~{this::content})}">
+
+    <th:block th:fragment="content">
+
+        <h1 class="mt-4">User Read Page</h1>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" th:value="${dto.email}" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Nickname</label>
+            <input type="text" class="form-control" name="nickname" th:value="${dto.nickname}" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Sex</label>
+            <input type="text" class="form-control" name="sex" th:value="${dto.sex}" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Birthday</label>
+            <input type="text" class="form-control" name="birthday" th:value="${dto.birthday}" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>RegDate</label>
+            <input type="text" class="form-control" name="regDate" th:value="${#temporals.format(dto.regDate, 'yyyy/MM/dd HH:mm:ss')}" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>ModDate</label>
+            <input type="text" class="form-control" name="modDate" th:value="${#temporals.format(dto.modDate, 'yyyy/MM/dd HH:mm:ss')}" readonly>
+        </div>
+
+        <a th:href="@{/user/modify}">
+            <button type="button" class="btn btn-primary">Modify</button>
+        </a>
+
+    </th:block>
+
+</th:block>

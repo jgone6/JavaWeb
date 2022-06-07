@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<th:block th:fragment="setContent(content)">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/vendor/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link th:href="@{/css/simple-sidebar.css}" rel="stylesheet">
+
+    <!-- Bootstrap core JS-->
+    <script th:src="@{/vendor/jquery/jquery.min.js}"></script>
+    <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+
+</head>
+
+<body>
+
+<div class="d-flex" id="wrapper">
+
+    <div class="bg-light border-right" id="sidebar-wrapper">
+
+        <div class="sidebar-heading">Web Project</div>
+
+        <div class="list-group list-group-flush">
+            <a th:href="@{/movie/list}" class="list-group-item list-group-item-action bg-light">메인화면</a>
+            <a th:href="@{/user/registerUser}" class="list-group-item list-group-item-action bg-light">회원가입</a>
+            <a class="nav-link list-group-item list-group-item-action bg-light" sec:authorize="isAnonymous()" th:href="@{/user/loginUser}">로그인</a>
+            <a class="nav-link list-group-item list-group-item-action bg-light" sec:authorize="isAuthenticated()" th:href="@{/user/logoutUser}">로그아웃</a>
+            <a class="nav-link list-group-item list-group-item-action bg-light" sec:authorize="isAuthenticated()" th:href="@{/user/read}">프로필 편집</a>
+
+        </div>
+
+    </div>
+
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+
+        </nav>
+
+        <div class="container-fluid">
+            <th:block th:replace="${content}"></th:block>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</th:block>
+</html>
