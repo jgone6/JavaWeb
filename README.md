@@ -12,10 +12,8 @@
 박영후 | 백엔드(spring boot, mysql)
 * * *
 # 기능
-a.
-b.
-c.
-d.
+![image](https://user-images.githubusercontent.com/62082028/172765900-72b95f33-3649-44da-81b7-55ae2d4d67e5.png)
+
 * * *
 # 🛠Skill & Tools
 ![image](https://user-images.githubusercontent.com/62082028/171586629-1875ebdb-b4e4-45a5-9e84-9c334b3ba9d3.png)
