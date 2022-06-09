@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&text=6팀%20프로젝트&fontSize=50)
 
 # Service Summary
-저희 프로젝트는 블로그를 카피해서 만들어 보았습니다.
+저희 프로젝트는 안전한 사이트를 만들기입니다.
+
 * * *
 # 발표 영상(Youtube)
 링크 :
